@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+   
+<header class="header">
+<h1>Lu CV</h1>
+
+<nav>
+    <ul>
+        <li><a href="#about">about</a></li> 
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#project">project</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+</header>
+
+
+<section class="about" id="about">
+    <h2 class="txt-center">About me</h2>
+    <p class="txt-center">Hi, im Lu</p>
+    <p class="txt-center">I'm learning HTML and CSS now.</p>
+</section>
+
+
+<section class="skills" id="skills">
+    <p>HTML</p>
+    <p>CSS</p>
+    <p>React</p>
+</section>
+
+
+<section class="project" id="project">
+    <div class="portfolio">
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form" target="_blank" >
+            <img src="survey.png" alt="Survey form">
+        </a>
+    </div>
+</section>
+
+
+
+<section class="contact" id="contact">
+<form>
+    <fieldset>
+
+          <legend>Contact</legend>
+
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" placeholder="Please leave your name">
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" placeholder="And your Email" required>
+      <label for="message" id="message-label">Drop your question:</label>
+      <textarea name="message" id="message" rows="3" cols="30"> </textarea>
+      
+    </fieldset>
+    <input type="submit" id="submit" value="send">
+</form></section>
+
+
+
+    
+</body>
+</html>
